@@ -4,5 +4,5 @@ fetch('http://localhost:3000', {
       'Content-Type': 'application/json'
     }
 }).then(response => response.json()).then(response => {
-    console.log(response);
+    document.querySelector('body').style.background = response.color;
 });
