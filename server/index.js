@@ -3,6 +3,9 @@ const express = require('express');
 const randomColor = require('./randomColor');
 const app = express();
 const port = 3000;
+var cors = require('cors');
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
