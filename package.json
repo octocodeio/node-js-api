@@ -1,9 +1,0 @@
-{
-  "name": "node-js-api",
-  "version": "1.0.0",
-  "description": "Project for tutorial",
-  "main": "index.js",
-  "repository": "https://github.com/octocodeio/node-js-api.git",
-  "author": "Wojtek Dasiukiewicz <wojtek@octocode.pl>",
-  "license": "MIT"
-}
